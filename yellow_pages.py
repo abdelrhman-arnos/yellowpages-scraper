@@ -4,6 +4,8 @@ import unicodecsv as csv
 import argparse
 import math
 import urllib3
+import multiprocessing
+import time
 
 # Remove https error
 urllib3.disable_warnings()
@@ -166,10 +168,18 @@ if __name__ == "__main__":
     count = int(args.count)
     cardPerPage = 30
 
+    p = multiprocessing.Pool(processes = multiprocessing.cpu_count()-1)
+    start = time.time()
     for page in range(math.ceil(count / cardPerPage)):
-        parse_listing(keyword, place, page + 1)
+        p.apply_async(parse_listing(keyword, place, page + 1))
 
-    if scraped_results:
+    p.close()
+    p.join()
+    end = time.time()
+    print('total time (s)= ' + str(end-start))
+
+
+if scraped_results:
         print("Writing scraped data to data.csv")
         with open('data.csv', 'wb') as csvfile:
             fieldnames = ['id', 'business_name', 'phone', 'email', 'years_in_business', 'services', 'neighborhoods', 'general_info', 'business_page', 'category', 'website', 'address',
