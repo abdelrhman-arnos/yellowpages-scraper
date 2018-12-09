@@ -2,12 +2,13 @@ import requests
 from lxml import html
 import unicodecsv as csv
 import argparse
+import math
 
-
+scraped_results = []
 def parse_listing(keyword, place, page):
     """
 
-    Function to process yellowpage listing page
+    Function to process yellowpages listing page
     : param keyword: search query
        : param place : place name
 
@@ -36,13 +37,8 @@ def parse_listing(keyword, place, page):
                 base_url = "https://www.yellowpages.com"
                 parser.make_links_absolute(base_url)
 
-
                 XPATH_LISTINGS = "//div[@class='search-results organic']//div[@class='v-card']"
                 listings = parser.xpath(XPATH_LISTINGS)
-                scraped_results = []
-
-                XPATH_PAGINATION = "//div[@class='pagination']//p//text()"
-                pagination = parser.xpath(XPATH_PAGINATION)[1]
 
                 for results in listings:
                     XPATH_ID = ".//a[@class='business-name']//@href"
@@ -82,6 +78,8 @@ def parse_listing(keyword, place, page):
                         'website': website,
                         'rating': rating,
                         'address': address,
+                        'keyword': keyword,
+                        'place': place,
                     }
                     scraped_results.append(business_details)
 
@@ -105,19 +103,21 @@ if __name__ == "__main__":
     argparser = argparse.ArgumentParser()
     argparser.add_argument('keyword', help='Search Keyword')
     argparser.add_argument('place', help='Place Name')
-    argparser.add_argument('page', help='Page Name')
-
+    argparser.add_argument('count', help='Page Counts')
     args = argparser.parse_args()
     keyword = args.keyword
     place = args.place
-    page = args.page
-    scraped_data = parse_listing(keyword, place, page)
+    count = int(args.count)
+    cardPerPage = 30
 
-    if scraped_data:
+    for page in range(math.ceil(count / cardPerPage)):
+        parse_listing(keyword, place, page + 1)
+
+    if scraped_results:
         print("Writing scraped data to %s-%s.csv" % (keyword, place))
         with open('%s-%s.csv' % (keyword, place), 'wb') as csvfile:
-            fieldnames = ['id', 'business_name', 'phone', 'business_page', 'category', 'website', 'address', 'rating']
+            fieldnames = ['id', 'business_name', 'phone', 'business_page', 'category', 'website', 'address', 'rating', 'keyword', 'place']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
             writer.writeheader()
-            for data in scraped_data:
+            for data in scraped_results:
                 writer.writerow(data)
