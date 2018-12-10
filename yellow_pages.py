@@ -122,17 +122,19 @@ def parse_listing(keyword, place, page):
                     rating = ''.join(raw_rating).replace("(", "").replace(")", "").strip() if raw_rating else None
                     address = ''.join(address).strip() if address else None
 
+                    pageData = list_id(business_page)
+
                     business_details = {
                         'id': business_id.split("?lid=")[1],
                         'business_name': business_name,
                         'phone': phone,
-                        'email': list_id(business_page)['email'],
-                        'years_in_business': list_id(business_page)['yib'],
-                        'general_info': list_id(business_page)['gi'],
+                        'email': pageData['email'],
+                        'years_in_business': pageData['yib'],
+                        'general_info': pageData['gi'],
                         'business_page': business_page,
-                        'category': list_id(business_page)['category'],
-                        'neighborhoods': list_id(business_page)['neighborhoods'],
-                        'services': list_id(business_page)['services'],
+                        'category': pageData['category'],
+                        'neighborhoods': pageData['neighborhoods'],
+                        'services': pageData['services'],
                         'website': website,
                         'rating': rating,
                         'address': address,
@@ -178,13 +180,13 @@ if __name__ == "__main__":
     end = time.time()
     print('total time (s)= ' + str(end-start))
 
-
-if scraped_results:
-        print("Writing scraped data to data.csv")
-        with open('data.csv', 'wb') as csvfile:
+    if scraped_results:
+        print("Writing scraped data to %s-%s.csv" % (keyword, place))
+        with open('%s-%s.csv' % (keyword, place), 'wb') as csvfile:
             fieldnames = ['id', 'business_name', 'phone', 'email', 'years_in_business', 'services', 'neighborhoods', 'general_info', 'business_page', 'category', 'website', 'address',
                           'rating', 'keyword', 'place']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
             writer.writeheader()
             for data in scraped_results:
                 writer.writerow(data)
+

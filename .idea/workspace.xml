@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0834d1e5-295c-4369-aa59-1983b439f9a0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/data.csv" afterPath="$PROJECT_DIR$/data.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/development-Los+Angeles,+CA.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/digital+agency-Los+Angeles,+CA.csv" afterPath="" />
       <change beforePath="$PROJECT_DIR$/yellow_pages.py" afterPath="$PROJECT_DIR$/yellow_pages.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,31 +21,14 @@
       <file leaf-file-name="yellow_pages.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yellow_pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="171" column="23" lean-forward="true" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="130" column="51" lean-forward="true" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#263#795#0" expanded="false" />
-                <element signature="e#819#4018#0" expanded="false" />
-                <element signature="e#4065#8037#0" expanded="false" />
-                <element signature="e#7733#7862#0" expanded="false" />
-                <element signature="e#7897#7954#0" expanded="false" />
-                <element signature="e#7984#8037#0" expanded="false" />
+                <element signature="e#7868#7925#0" expanded="false" />
+                <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -80,7 +67,10 @@
       <find>Bright Age Digital Creative Agency</find>
       <find>4242 Atlantic Ave</find>
       <find>arsing</find>
+      <find>546831167</find>
+      <find>546826823</find>
       <find>dvetising Image Group</find>
+      <find>print(</find>
     </findStrings>
     <replaceStrings>
       <replace>phone</replace>
@@ -102,6 +92,7 @@
         <option value="$PROJECT_DIR$/x.py" />
         <option value="$PROJECT_DIR$/x.js" />
         <option value="$PROJECT_DIR$/x.html" />
+        <option value="$PROJECT_DIR$/data.csv" />
         <option value="$PROJECT_DIR$/yellow_pages.py" />
       </list>
     </option>
@@ -147,6 +138,11 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="done" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,6 +156,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Projects\htdocs\scrape\python\done" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29602000" />
+    <option name="totallyTimeSpent" value="44564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="835" extended-state="6" />
@@ -291,10 +292,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4062947" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45636624" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -304,11 +305,32 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4062947" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,38 +346,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#263#795#0" expanded="false" />
-            <element signature="e#819#4018#0" expanded="false" />
-            <element signature="e#4065#8037#0" expanded="false" />
-            <element signature="e#7733#7862#0" expanded="false" />
-            <element signature="e#7897#7954#0" expanded="false" />
-            <element signature="e#7984#8037#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#263#795#0" expanded="false" />
-            <element signature="e#819#4018#0" expanded="false" />
-            <element signature="e#4065#8037#0" expanded="false" />
-            <element signature="e#7733#7862#0" expanded="false" />
-            <element signature="e#7897#7954#0" expanded="false" />
-            <element signature="e#7984#8037#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
     <entry file="file://$PROJECT_DIR$/yellow_pages.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -363,12 +353,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#263#795#0" expanded="false" />
-            <element signature="e#819#4018#0" expanded="false" />
-            <element signature="e#4065#8037#0" expanded="false" />
-            <element signature="e#7733#7862#0" expanded="false" />
-            <element signature="e#7897#7954#0" expanded="false" />
-            <element signature="e#7984#8037#0" expanded="false" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
           </folding>
         </state>
       </provider>
@@ -379,7 +365,7 @@
     <entry file="file://$PROJECT_DIR$/development-Los+Angeles%2C+CA-yellowpages-scraped-data.csv" />
     <entry file="file://$PROJECT_DIR$/development-Los+Angeles%2C+CA.csv" />
     <entry file="file://$PROJECT_DIR$/x.js" />
-    <entry file="file://$PROJECT_DIR$/development-Los+Angeles,+CA.csv">
+    <entry file="file://$PROJECT_DIR$/done/development-Los+Angeles,+CA.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="136">
           <caret line="59" column="170" lean-forward="true" selection-start-line="59" selection-start-column="170" selection-end-line="59" selection-end-column="198" />
@@ -389,7 +375,7 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/digital+agency-Los+Angeles,+CA.csv">
+    <entry file="file://$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="212" lean-forward="false" selection-start-line="60" selection-start-column="195" selection-end-line="60" selection-end-column="212" />
@@ -400,10 +386,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/x.html" />
-    <entry file="file://$PROJECT_DIR$/data.csv">
+    <entry file="file://$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -414,15 +400,305 @@
     <entry file="file://$PROJECT_DIR$/yellow_pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="171" column="23" lean-forward="true" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+          <caret line="172" column="20" lean-forward="false" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#263#795#0" expanded="false" />
-            <element signature="e#819#4018#0" expanded="false" />
-            <element signature="e#4065#8037#0" expanded="false" />
-            <element signature="e#7733#7862#0" expanded="false" />
-            <element signature="e#7897#7954#0" expanded="false" />
-            <element signature="e#7984#8037#0" expanded="false" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/development-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/development-Los+Angeles%2C+CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/development-Los+Angeles%2C+CA.csv" />
+    <entry file="file://$PROJECT_DIR$/x.js" />
+    <entry file="file://$PROJECT_DIR$/done/development-Los+Angeles,+CA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="136">
+          <caret line="59" column="170" lean-forward="true" selection-start-line="59" selection-start-column="170" selection-end-line="59" selection-end-column="198" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="212" lean-forward="false" selection-start-line="60" selection-start-column="195" selection-end-line="60" selection-end-column="212" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x.html" />
+    <entry file="file://$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/digital%20agency-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/development-Los%20Angeles%2C%20CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/development-Los+Angeles%2C+CA-yellowpages-scraped-data.csv" />
+    <entry file="file://$PROJECT_DIR$/development-Los+Angeles%2C+CA.csv" />
+    <entry file="file://$PROJECT_DIR$/x.js" />
+    <entry file="file://$PROJECT_DIR$/done/development-Los+Angeles,+CA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="136">
+          <caret line="59" column="170" lean-forward="true" selection-start-line="59" selection-start-column="170" selection-end-line="59" selection-end-column="198" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="212" lean-forward="false" selection-start-line="60" selection-start-column="195" selection-end-line="60" selection-end-column="212" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x.html" />
+    <entry file="file://$PROJECT_DIR$/done/Telecom-Los+Angeles,+CA.csv">
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="267">
+          <caret line="349" column="15" lean-forward="true" selection-start-line="349" selection-start-column="15" selection-end-line="349" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
+          <column index="13" width="100" />
+          <column index="14" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/digital+agency-Los+Angeles,+CA.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-233">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-Florida,+NY.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-3694">
+          <caret line="17" column="413" lean-forward="false" selection-start-line="17" selection-start-column="413" selection-end-line="17" selection-end-column="694" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
+          <column index="13" width="100" />
+          <column index="14" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/development-Florida,+NY.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-838">
+          <caret line="0" column="170" lean-forward="true" selection-start-line="0" selection-start-column="167" selection-end-line="0" selection-end-column="170" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/development-Florida+City,+FL.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1583">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/telecom-Florida+City,+FL.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-2767">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/telecom-Washington,+DC.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-4722">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/done/web-Ohio+City,+OH.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-493">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eCommerce-Florida+City,+FL.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yellow_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="130" column="51" lean-forward="true" selection-start-line="130" selection-start-column="51" selection-end-line="130" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#7868#7925#0" expanded="false" />
+            <marker date="1544474284061" expanded="false" signature="7687:7811" ph="..." />
           </folding>
         </state>
       </provider>
