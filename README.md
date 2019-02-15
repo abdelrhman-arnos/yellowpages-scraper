@@ -41,3 +41,6 @@ python yellow_pages.py digital+agency Los+Angeles,+CA 64
 ## Sample Output
 This will create a CSV file:
 [Sample output](https://raw.githubusercontent.com/abdelrhman-m27/yellowpages-scraper/master/digital+agency-Los+Angeles,+CA.csv)
+
+## Copyright and license
+Code copyright 2019 [MIT License](https://raw.githubusercontent.com/abdelrhman-m27/yellowpages-scraper/master/yellowpages-scraper/LICENSE)
