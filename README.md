@@ -7,15 +7,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Fields
 Extracting possible fields from the search page and specific business card details in search page:
 
-| Field Name (search) | Field Name (specific) |
+| From search page | From business page |
 | ------------- | ------------- |
 | ID | Email  |
 | Business name | Years in business  |
 | Phone | General info  |
-| page(href) | General info  |
-| Address | Category  |
-| Website | Neighborhoods  |
-| Rating | Services  |
+| page(href) | Category  |
+| Address | Neighborhoods  |
+| Website | Services  |
+| Rating |   |
 
 ### Libraries
 This script built using Python 3 and:
